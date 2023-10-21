@@ -82,10 +82,6 @@ footer {
         }
         
         .image-gallery img {
-            width: 200px;
-            margin: 10px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
             animation: floatIn 1s ease-in-out;
         }
 
