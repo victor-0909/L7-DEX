@@ -58,7 +58,6 @@ nav a {
 body {
     background-image: url(biti.png);
     background-image: url(Bitcoin.avif);
-    background-repeat: no-repeat;
 }
 
 @media (max-width: 768px) {
