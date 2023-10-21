@@ -73,18 +73,7 @@ footer {
             color: #fff;
             padding: 20px;
             text-align: center;
-        }
-
-        @keyframes floatIn {
-            0% {
-                transform: translateX(100%);
-                opacity: 0;
-            }
-            100% {
-                transform: translateX(0);
-                opacity: 1;
-            }
-        }
+}
 
 .bounce {
             animation: bounce 1s infinite;
