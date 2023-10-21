@@ -56,9 +56,12 @@ nav a {
     font-size: 20px;
 }
 body {
-    background-image: url(biti.png);
-    background-image: url(Bitcoin.avif);
-}
+            background-image: url(Bitcoin.avif);
+            background-image: url('biti.png');
+            background-size: cover; /* Cover the entire viewport */
+            background-repeat: no-repeat; /* Prevent background from repeating */
+            background-attachment: fixed; /* Fixed background for scrolling */
+        }
 
 @media (max-width: 768px) {
   /* Styles for screens up to 768px wide */
