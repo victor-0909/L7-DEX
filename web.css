@@ -66,3 +66,35 @@ body {
 @media (max-width: 480px) {
   /* Styles for screens up to 480px wide */
 }
+
+footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Style the image gallery */
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .image-gallery img {
+            width: 200px;
+            margin: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            animation: floatIn 1s ease-in-out;
+        }
+
+        @keyframes floatIn {
+            0% {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+            100% {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
